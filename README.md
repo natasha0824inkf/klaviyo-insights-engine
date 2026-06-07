@@ -3,7 +3,6 @@ A custom analytics engine that pulls Klaviyo data into Supabase, processes it th
 # Insights Engine
 
 ## Overview
-Short description (350-char).  
 Who it’s for.  
 Why it exists.  
 Core capabilities.
@@ -48,7 +47,7 @@ Design decisions
 Why no-code tools were dropped
 
 ## License
-MIT or whatever you choose.
+MIT 
 
                     +-------------------+
                     |     Klaviyo API   |
@@ -87,7 +86,7 @@ How It Works
 1. Data Flow
 
 A Supabase Edge Function pulls Klaviyo metrics once per day. It fetches raw JSON from the API, normalizes it, and writes structured rows into Postgres.
-The process is automated end-to-end — no Sheets, no exports, no manual steps.
+The process is automated end-to-end, meaninf no sheets, exports, or manual steps.
 
 2. ETL Logic
 
