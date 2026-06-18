@@ -2,11 +2,6 @@
 A custom analytics engine that pulls Klaviyo data into Supabase, processes it through SQL models and scheduled functions, and visualizes it in Grafana. Delivers automated, scalable insights for multi-brand email performance, revenue, and daily ops
 # Insights Engine
 
-## Overview
-Who it’s for.  
-Why it exists.  
-Core capabilities.
-
 ## Architecture
 High-level diagram (ASCII).  
 Layers: Klaviyo → Supabase → SQL models → Cron → Grafana.
